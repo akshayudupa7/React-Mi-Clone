@@ -11,7 +11,7 @@ function Navbar(){
             </a>
         </div>
         
-        <a href="http://akshayudupa7.github.io/xioamiphones">Xioami Phones</a>
+        <a href="/xioamiphones">Xioami Phones</a>
         <a href="/redmiphones">Redmi Phones</a>
         <a href="/tv">Tv</a>
         <a href="/tablets">Laptops & Tablets</a>
