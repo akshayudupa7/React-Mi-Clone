@@ -1,6 +1,7 @@
 import "../css/Social.css"
 
 function Social(){
+    console.log('hello')
     return(
         <div className="social">
      
