@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/React-electronic-clone/static/css/main.4a19c5c9.css",
-    "main.js": "/React-electronic-clone/static/js/main.949d01b7.js",
+    "main.js": "/React-electronic-clone/static/js/main.e112736b.js",
     "index.html": "/React-electronic-clone/index.html",
     "main.4a19c5c9.css.map": "/React-electronic-clone/static/css/main.4a19c5c9.css.map",
-    "main.949d01b7.js.map": "/React-electronic-clone/static/js/main.949d01b7.js.map"
+    "main.e112736b.js.map": "/React-electronic-clone/static/js/main.e112736b.js.map"
   },
   "entrypoints": [
     "static/css/main.4a19c5c9.css",
-    "static/js/main.949d01b7.js"
+    "static/js/main.e112736b.js"
   ]
 }
