@@ -1,0 +1,19 @@
+
+
+.star img{
+  width:100%;
+}
+.star{
+    width:100%;
+    display: flex;
+    justify-content: center;
+ 
+}
+.product img{
+    width:100%;
+}
+@media(max-width:990px){
+    .star{
+        background-color: #1c1538;
+    }
+}

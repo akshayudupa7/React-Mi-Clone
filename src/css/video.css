@@ -1,0 +1,31 @@
+.videoimage{
+    width:40%;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.videoimage a {
+    margin-top: 3vmax;
+    font-size: 2em;
+    line-height: 30px;
+    font-weight: 400;
+  
+}
+.videoimage p{
+    margin-top: 2vmax;
+    font-size: 1.2em;
+    line-height: 20px;
+    color:#fff;
+}
+.videomain{
+    display:flex;
+
+}
+@media(max-width:500px){
+    .videoimage p{
+        font-size: 0.8em;
+    }
+}

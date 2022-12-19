@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap');
+.logo{
+    background-color: orange;
+    display: inline-block;
+    width:54px;
+    height:50px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+      
+     
+}
+#main-logo{
+    transform: translateX(-54px);
+    transition: all 0.5s;
+}
+#main-logo:hover{
+    transform: translateX(0px);
+}
+
+.navbar{
+    display: flex;
+    padding: 1em;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+.navbar>a{
+    text-decoration: none;
+    color:rgb(79, 76, 76);
+    padding: 1vmax;
+    font-weight: 500;
+    font-size: 1.4vmax;
+}
+.navbar>a:hover{
+    color:rgb(173, 115, 7);
+    border-bottom: 2px solid rgb(173, 115, 7);
+}
+.navbar>input{
+    margin-left: 3vmax;
+  
+    outline: none;
+    width:15vmax;
+    height:3vmax;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+@media(max-width:500px){
+    .navbar{
+        display:flex;
+        flex-direction: column;
+    }
+}

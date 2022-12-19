@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap');
+.hot1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+.hot0{
+    margin-right: 2vmax;
+    width:100%;
+    margin-top: 4vmax;
+    height: 100vh;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+.hot0 img{
+    width:100%;
+    height: 100vh;
+}
+.mainHot{
+    display:flex;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+.hot3{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+
+}
+.hot3 img{
+    width:90%;
+}
+.hot3 h5{
+    font-size:1.8vmax;
+    color:#198754;
+}
+.hot3 p{
+    font-size:1.6vmax;
+    font-weight: 500;
+
+}
+.hot3{
+    margin-left: 1vmax;
+}
+@media(max-width:1000px){
+    .mainHot{
+        display: inline-block;
+    }
+    .hot0{
+   width:90%;
+   margin: auto;
+   margin-top: 2vmax;
+    }
+    .hot1{
+        width:90%;
+        margin:auto;
+    }
+
+}
+.navmenu a{
+   text-decoration: none;
+   margin: 1vmax 3vmax;
+   font-size:2vmax;
+  
+}
+.navmenu a:hover{
+    color:rgb(225, 62, 17);
+    border-top: 2px solid rgb(225, 62, 17);
+}
+.navmenu{
+    text-align: center;
+}
+@media(max-width:430px){
+    .navmenu a:hover{
+        border-top:0px;
+    }
+}

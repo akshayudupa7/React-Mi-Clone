@@ -1,0 +1,41 @@
+.toggle{
+    display: flex;
+    width:100%;
+}
+.Navtoggle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    margin-left: 3vmax;
+}
+.Navtoggle img{
+    width:50%;
+}
+.Navtoggle h6{
+    font-size: 1vmax;
+    color:#198754;
+}
+.Navtoggle p{
+    font-size: 1vmax;
+    
+}
+.navmenu a{
+    color:black;
+    font-size: 2vmax;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+@media(max-width:430px){
+    .navmenu{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .navmenu a:hover{
+      border: none;
+    }
+    
+}

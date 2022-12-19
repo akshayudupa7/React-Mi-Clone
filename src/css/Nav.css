@@ -1,0 +1,26 @@
+.Nav{
+    display:grid;
+    grid-template-columns: 5fr 2fr;
+    background-color: rgb(44, 42, 42);
+    width:100%;
+}
+.Nav> div{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.Nav>div>a{
+    margin:1vmax;
+    text-decoration: none;
+    font-size: 0.8vmax;
+    color:rgb(163, 160, 160);
+    padding:0.8vmax 0.1vmax;
+}
+.Nav>div>a:hover{
+    color:white;
+}
+.Nav>div>span{
+    color:white;
+    opacity: 0.5;
+}

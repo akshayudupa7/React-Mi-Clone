@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap');
+.heading{
+    text-align: center;
+    font-weight: 300;
+    color:#198754;
+    font-size: 12px;
+    margin:5em 0em;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+   
+}
